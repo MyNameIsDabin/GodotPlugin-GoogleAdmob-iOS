@@ -1,10 +1,3 @@
-# GodotPlugin-GoogleAdmob-iOS
-Godot 3.3+ Google Admob Plugin (SDK v8) for iOS
-
-...Sorry, I only implement what I need, so only RewardedAds work.
-
-### Example (Only Reward Ads.. T.T)
-```
 extends Node
 
 var admob = null
@@ -44,4 +37,3 @@ func _on_rewarded_video_ad_dismiss():
 
 func _on_rewarded(currency, amount, playedRewardedID):
 	print("Reward: " + currency + ", " + str(amount) + ", " + playedRewardedID)
-```
