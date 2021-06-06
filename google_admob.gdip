@@ -1,0 +1,19 @@
+[config]
+name="GoogleAdmob"
+binary="godot_plugin.xcframework"
+
+initialization="godot_plugin_init"
+deinitialization="godot_plugin_deinit"
+
+[dependencies]
+linked=["GoogleAppMeasurement.framework", "GoogleMobileAds.framework", "GoogleUtilities.framework", "nanopb.framework", "PromisesObjC.framework", "UserMessagingPlatform.framework"]
+embedded=[]
+system=["JavaScriptCore.framework"]
+
+capabilities=[]
+
+files=[]
+
+linker_flags=["-ObjC"]
+
+[plist]
