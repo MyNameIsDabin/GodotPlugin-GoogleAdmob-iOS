@@ -3,9 +3,13 @@ Godot 3.3+ Google Admob Plugin (SDK v8) for iOS
 
 ...Sorry, I only implement what I need, so only RewardedAds work.
 
-Step 1. export setting -> [Plugins] Enable 'Google Admob'
+Step 1. Copy the Googleadmob folder in release folder to [Your_Godot_Project]/ios/plugins.
 
-Step 2. build your xcode project and Update [Info.plist](https://developers.google.com/admob/ios/quick-start?hl=ko#update_your_infoplist)
+Step 2. export setting -> [Plugins] Enable 'Google Admob'
+
+Step 3. build your xcode project and Update [Info.plist](https://developers.google.com/admob/ios/quick-start?hl=ko#update_your_infoplist)
+
+Step 4. Run!
 
 ### Example (Only Reward Ads.. T.T)
 ```
